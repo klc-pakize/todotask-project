@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/todotask-project/static/css/main.fd575f34.css",
+    "main.js": "/todotask-project/static/js/main.6647acd2.js",
+    "static/media/Sell digital downloads online _ E-junkie.jpg": "/todotask-project/static/media/Sell digital downloads online _ E-junkie.c8ee06d14e740f962ff6.jpg",
+    "index.html": "/todotask-project/index.html",
+    "main.fd575f34.css.map": "/todotask-project/static/css/main.fd575f34.css.map",
+    "main.6647acd2.js.map": "/todotask-project/static/js/main.6647acd2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd575f34.css",
+    "static/js/main.6647acd2.js"
+  ]
+}
