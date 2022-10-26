@@ -1,0 +1,75 @@
+.con {
+  width: 500px;
+  padding: 2rem;
+  margin: 12rem auto 8rem 5rem;
+  height: 300px;
+  background-color: rgba(255, 255, 0, 0.377) !important;
+  box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.807);
+  flex-direction: column;
+  display: flex;
+}
+.container {
+  width: 100% !important;
+  margin: auto;
+  background-color: rgb(255, 255, 0);
+  background-image: url("../img/Sell\ digital\ downloads\ online\ _\ E-junkie.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  display: flex;
+}
+
+.text-task,
+.text-date {
+  display: flex;
+  font-size: 2rem;
+  color: black;
+}
+#task,
+#date {
+  box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.807);
+  margin-bottom: 1rem;
+}
+
+.saveTask {
+  background: black !important;
+  outline: none;
+  border: 1px solid black !important;
+}
+
+@media only screen and (max-width: 1200px) {
+  .con {
+    margin: 12rem auto 8rem 5rem;
+    width: 400px;
+  }
+  .container {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 995px) {
+  .con {
+    margin: 12rem auto 8rem 5rem;
+    width: 400px;
+    width: 100% !important;
+  }
+  .container {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 496px) {
+  .con {
+    margin: 12rem auto 8rem 5rem;
+    width: 200px;
+    width: 100% !important;
+  }
+  .container {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .container {
+    width: 100% !important;
+    text-align: center;
+  }
+}

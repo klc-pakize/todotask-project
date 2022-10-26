@@ -1,0 +1,47 @@
+.li {
+  height: 100%;
+  box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.807);
+  overflow: hidden;
+  word-break: break-word;
+  border-radius: 20px !important;
+  text-align: start;
+  margin-bottom: 1rem;
+}
+.con1 {
+  width: 500px;
+  margin: 15rem 5rem 4rem;
+  /* border: 1px solid red; */
+}
+
+.delete {
+  margin: 0.5rem !important;
+  border-radius: 50% !important;
+  background-color: rgb(255, 255, 0) !important;
+  color: black !important;
+  font-weight: bolder !important;
+}
+
+@media (max-width: 1400px) {
+  .con1 {
+    width: 300px;
+    margin: 15rem 8rem 10rem;
+  }
+}
+@media (max-width: 800px) {
+  .con2 {
+    position: relative;
+  }
+  .con1 {
+    margin: 13rem 8rem 8rem;
+    position: absolute;
+    top: 20rem;
+    right: -10rem;
+    width: 250px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .con2 {
+    width: 100% !important;
+    text-align: center;
+  }
+}
